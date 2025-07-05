@@ -1,23 +1,38 @@
-body {
-  font-family: sans-serif;
+.cc-body {
+  background-color: #fef3c7;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background: #0f172a;
-  color: white;
+.cc-header {
+  background-color: #0f172a;
   padding: 20px;
   text-align: center;
 }
 
-nav a {
-  color: #f1f5f9;
-  margin: 0 10px;
-  text-decoration: none;
+.cc-title {
+  color: #ffffff;
+  margin: 0;
 }
 
-main {
-  padding: 50px;
+.cc-nav {
+  margin-top: 10px;
+}
+
+.cc-link {
+  color: #facc15;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.cc-main {
+  padding: 40px;
   text-align: center;
+}
+
+.cc-text {
+  font-size: 18px;
+  color: #1e293b;
 }
